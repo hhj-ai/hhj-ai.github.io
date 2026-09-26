@@ -3,9 +3,9 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>Your Name</title>
+    <title>Haojie Huang</title>
 
-    <meta name="author" content="Your Name">
+    <meta name="author" content="Haojie Huang">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -20,17 +20,16 @@
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:middle">
                 <p class="name" style="text-align: center;">
-                  Your Name
+                  Haojie Huang
                 </p>
                 <p>
-                  I'm a [position] at <a href="https://example.com/">[Institution]</a>, where I work on [research topics].
-                  Previously, I did my [degree] at <a href="https://example.com/">[University]</a>, advised by <a href="https://example.com/">[Advisor]</a>.
+                  I'm an undergraduate student majoring in Artificial Intelligence at <a href="https://www.zju.edu.cn/english/">Zhejiang University</a> (class of 2025).
+                </p>
+                <p>
+                  Since February 2026, I have been a research intern at the <a href="https://www.lv-nus.org/">Learning and Vision Lab</a>, <a href="https://nus.edu.sg/">National University of Singapore</a> (NUS@LV-Lab), advised by <a href="https://yanshuicheng.info/">Prof. Shuicheng Yan</a> and Dr. Xiaobin Hu.
                 </p>
                 <p style="text-align:center">
-                  <a href="mailto:you@example.com">Email</a> &nbsp;/&nbsp;
-                  <a href="data/CV.pdf">CV</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://twitter.com/">Twitter</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=3fbwjhQAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
                   <a href="https://github.com/hhj-ai/">Github</a>
                 </p>
               </td>
@@ -44,7 +43,8 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I'm interested in [area 1], [area 2], and [area 3]. Representative papers are <span class="highlight">highlighted</span>.
+                  I'm interested in representation learning, computer vision, multimodal AI, and machine learning.
+                  Currently, I focus on making vision a first-class citizen in vision-language models &mdash; models that answer from what they actually see, rather than from language priors.
                 </p>
               </td>
             </tr>
@@ -52,74 +52,45 @@
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
-<!-- Paper entry with a before/after image swap on hover. Copy this block and rename "paper1" to a unique id. -->
-<tr onmouseout="paper1_stop()" onmouseover="paper1_start()" bgcolor="#ffffd0">
+<tr bgcolor="#ffffd0">
   <td style="padding:16px;width:20%;vertical-align:middle">
-    <div class="one">
-      <div class="two" id='paper1_image'>
-        <img src='images/paper1_after.svg' width=100%>
-      </div>
-      <img src='images/paper1_before.svg' width=100%>
-    </div>
-    <script type="text/javascript">
-      function paper1_start() {
-        document.getElementById('paper1_image').style.opacity = "1";
-      }
-
-      function paper1_stop() {
-        document.getElementById('paper1_image').style.opacity = "0";
-      }
-      paper1_stop()
-    </script>
+    <a href="https://evidencerl.github.io/"><img src='images/evidencerl.webp' alt="Evidence-RL teaser" width="160"></a>
   </td>
   <td style="padding:8px;width:80%;vertical-align:middle">
-    <a href="https://example.com/">
-      <span class="papertitle">Paper Title Goes Here</span>
+    <a href="https://evidencerl.github.io/">
+      <span class="papertitle">Evidence-RL: Towards Evidence-intensive Visual Reasoning</span>
     </a>
     <br>
-    <strong>Your Name</strong>,
-    <a href="https://example.com/">Coauthor One</a>,
-    <a href="https://example.com/">Coauthor Two</a>
+    <strong>Haojie Huang</strong>*,
+    Xinlei Yu*,
+    Chengming Xu*,
+    Zhangquan Chen,
+    Cheng Yang,
+    Qingdong He,
+    Yu Yang,
+    Jiangning Zhang,
+    Xiaobin Hu&dagger;
     <br>
-    <em>Conference</em>, 2026
+    <em>NeurIPS</em>, 2026
     <br>
-    <a href="https://example.com/">project page</a>
+    <a href="https://evidencerl.github.io/">project page</a>
     /
-    <a href="https://arxiv.org/">arXiv</a>
-    /
-    <a href="https://github.com/">code</a>
+    <a href="https://arxiv.org/abs/2608.08021">arXiv</a>
     <p></p>
     <p>
-      A one- or two-sentence summary of the paper's main idea.
+      Counterfactual Evidence Disentanglement (CED) rewards VLMs during RL post-training only when their answers causally depend on the right visual evidence, improving grounded reasoning across nine benchmarks with no inference-time cost.
     </p>
   </td>
 </tr>
 
 
-<!-- Paper entry with a static thumbnail. -->
-<tr>
-  <td style="padding:16px;width:20%;vertical-align:middle">
-    <img src='images/paper2.svg' width="160">
-  </td>
-  <td style="padding:8px;width:80%;vertical-align:middle">
-    <a href="https://example.com/">
-      <span class="papertitle">Another Paper Title</span>
-    </a>
-    <br>
-    <a href="https://example.com/">Coauthor One</a>,
-    <strong>Your Name</strong>
-    <br>
-    <em>Journal</em>, 2025
-    <br>
-    <a href="https://arxiv.org/">arXiv</a>
-    <p></p>
-    <p>
-      A one- or two-sentence summary of the paper's main idea.
-    </p>
-  </td>
-</tr>
-
-
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px 16px;">
+                <p style="font-size:small;">* Equal contribution &nbsp; &dagger; Corresponding author</p>
+              </td>
+            </tr>
           </tbody></table>
 
 
@@ -134,25 +105,23 @@
 
             <tr>
               <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-                <div class="colored-box" style="background-color: #c6b89e;">
-                  <h2>Academic Service</h2>
+                <div class="colored-box" style="background-color: #aaba9e;">
+                  <h2>Experience</h2>
                 </div>
               </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="https://example.com/">Reviewer, Conference 2026</a>
-                <br>
-                <a href="https://example.com/">Reviewer, Conference 2025</a>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://www.lv-nus.org/">Research Intern, Learning and Vision Lab, National University of Singapore</a>, Feb 2026 &ndash; Present
               </td>
             </tr>
 
             <tr>
               <td align="center" style="padding:16px;width:20%;vertical-align:middle">
                 <div class="colored-box" style="background-color: #edd892;">
-                  <h2>Teaching</h2>
+                  <h2>Education</h2>
                 </div>
               </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="https://example.com/">Teaching Assistant, Course Name, Spring 2026</a>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://www.zju.edu.cn/english/">Undergraduate in Artificial Intelligence, Zhejiang University</a>, 2025 &ndash; Present
               </td>
             </tr>
 
